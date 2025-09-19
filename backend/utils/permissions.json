@@ -1,0 +1,20 @@
+{
+  "api_endpoints": {
+    "GET /api/health": ["admin", "manager", "agent"],
+    "POST /api/register_agent_voice": ["admin", "manager", "agent"],
+    "GET /api/get_all_users": ["admin", "manager"],
+    "POST /api/call_analyzer": ["admin", "manager", "agent"],
+
+    "POST /api/signup": ["admin", "manager", "agent"],  
+    "POST /api/signin": ["admin", "manager", "agent"],  
+    "POST /api/forgot_password": ["admin", "manager", "agent"],  
+    "POST /api/update_user_verification": ["admin", "manager"],  
+    "POST /api/verify_otp": ["admin", "manager", "agent"],  
+    "POST /api/change_password": ["admin", "manager", "agent"],  
+    "DELETE /api/remove_user": ["admin", "manager"]
+  },
+  "sockets": {
+    "WS /ws/client": ["admin", "manager", "agent"]
+  }
+}
+

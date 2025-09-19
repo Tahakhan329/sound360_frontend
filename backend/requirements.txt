@@ -1,0 +1,49 @@
+fastapi==0.104.1
+ffmpeg-python==0.2.0
+numpy==1.26.4
+openai-whisper==20250625
+# torch==2.8.0
+# torchaudio==2.4.1
+# torchvision==0.19.1
+tqdm==4.67.1
+uvicorn==0.24.0
+requests==2.32.4
+PyYAML==6.0.2
+pydub==0.25.1
+librosa===0.11.0
+websockets==12.0
+pandas==2.3.1
+openpyxl==3.1.5
+regex==2025.7.34
+transformers==4.54.1
+nltk==3.9.1
+silero-vad==5.1.2
+noisereduce==3.0.3
+coqui-tts==0.27.0
+huggingface-hub==0.34.4
+bitsandbytes==0.47.0
+accelerate==1.10.0
+transformers==4.54.1
+kernels==0.9.0
+wheel==0.45.1
+pyannote.audio==3.3.2
+python-dotenv==1.1.1
+hf-xet==1.1.8
+deepmultilingualpunctuation==1.0.1
+langgraph==0.6.6
+lingua-language-detector==2.1.1
+psycopg2-binary==2.9.10
+SQLAlchemy==2.0.43
+alembic==1.16.5
+SQLAlchemy-Utils==0.42.0
+PyJWT==2.10.1
+passlib==1.7.4
+aiosmtplib==4.0.2
+
+
+# --extra-index-url https://download.pytorch.org/whl/cu126
+# torch==2.8.0
+# torchvision==0.23.0
+# torchaudio==2.8.0
+
+
